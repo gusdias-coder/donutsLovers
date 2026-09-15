@@ -1,277 +1,522 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donuts Loverss — Mini Donuts &amp; Doces Gourmet</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header class="nav" id="navHeader">
-  <div class="nav-inner">
-    <a href="#top" class="logo">donuts<span>loverss</span></a>
-    <nav class="links">
-      <a href="#doces">Nossos doces</a>
-      <a href="#ocasioes">Ocasiões</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#como-funciona">Como funciona</a>
-    </nav>
-    <a class="nav-cta" href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Fazer encomenda</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
-      <svg width="22" height="16" viewBox="0 0 22 16" fill="none"><path d="M0 1h22M0 8h22M0 15h22" stroke="currentColor" stroke-width="1.6"/></svg>
-    </button>
-  </div>
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#doces">Nossos doces</a>
-    <a href="#ocasioes">Ocasiões</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#como-funciona">Como funciona</a>
-    <a class="mobile-cta" href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Fazer encomenda no WhatsApp</a>
-  </div>
-</header>
-
-<main id="top">
-
-  <!-- HERO -->
-  <section class="hero wrap">
-    <div class="hero-glow"></div>
-    <div class="hero-grid">
-      <div>
-        <span class="eyebrow-tag">Produção artesanal em Porto Alegre</span>
-        <h1 class="hero-title">Doces que viram <em>memória</em></h1>
-        <p class="hero-copy">Mini donuts, bolo de pote e mousse feitos à mão, sob encomenda em Porto Alegre.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Fazer minha encomenda</a>
-          <a class="hero-link" href="#doces">Ver nossos doces</a>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donuts Loverss — Mini Donuts &amp; Doces Gourmet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav" id="navHeader">
+      <div class="nav-inner">
+        <a href="#top" class="logo">donuts<span>loverss</span></a>
+        <nav class="links">
+          <a href="#doces">Nossos doces</a>
+          <a href="#ocasioes">Ocasiões</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#como-funciona">Como funciona</a>
+        </nav>
+        <a
+          class="nav-cta"
+          href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda."
+          target="_blank"
+          rel="noopener"
+          >Fazer encomenda</a
+        >
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <svg width="22" height="16" viewBox="0 0 22 16" fill="none">
+            <path
+              d="M0 1h22M0 8h22M0 15h22"
+              stroke="currentColor"
+              stroke-width="1.6"
+            />
+          </svg>
+        </button>
       </div>
-      <div class="hero-photo">
-        <img src="img/hero-donut-chocolate.jpg" alt="Donut de chocolate finalizado com wafer rosa, segurado por confeiteira com luva preta" style="object-position:50% 42%;">
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- FAIXA ANIMADA -->
-  <div class="faixa" aria-hidden="true">
-    <div class="faixa-conteudo">
-      <span>Mini Donuts</span><span class="dot">•</span>
-      <span>Doces Gourmet</span><span class="dot">•</span>
-      <span>Feito à mão</span><span class="dot">•</span>
-      <span>Porto Alegre</span><span class="dot">•</span>
-      <span>Mini Donuts</span><span class="dot">•</span>
-      <span>Doces Gourmet</span><span class="dot">•</span>
-      <span>Feito à mão</span><span class="dot">•</span>
-      <span>Porto Alegre</span><span class="dot">•</span>
-    </div>
-  </div>
-
-  <!-- IMPACTO -->
-  <section class="impact wrap">
-    <h2>Pequenos doces. <br>Grandes momentos.</h2>
-    <p>Cada pedido é preparado artesanalmente, com cuidado em cada detalhe para deixar sua comemoração ainda mais especial.</p>
-  </section>
-
-  <!-- NOSSOS DOCES -->
-  <section class="section wrap" id="doces">
-    <div class="section-head">
-      <h2>O que sai do nosso forno</h2>
-      <p>Consulte sabores e disponibilidade da semana direto pelo WhatsApp — montamos sua caixa do seu jeito.</p>
-    </div>
-
-    <div class="doces-list">
-      <div class="doce-row reveal">
-        <div class="doce-photo"><img src="img/mini-donuts-grade.jpg" alt="Seis mini donuts coloridos com coberturas variadas sobre grade de resfriamento"></div>
-        <div class="doce-text">
-          <span class="doce-num">01 — Mini donuts</span>
-          <h3>O clássico da casa</h3>
-          <p>Massa fofinha, banho generoso e cobertura na medida certa. Feitos em tamanho mini para experimentar mais de um sabor.</p>
-          <div class="flavor-tags">
-            <span>Kinder</span><span>M&amp;M's</span><span>Ninho + Nutella</span><span>Oreo</span><span>Churros</span>
-          </div>
-          <a class="link-inline" href="https://wa.me/5551986040948?text=Oi!%20Quero%20consultar%20sabores%20de%20mini%20donuts." target="_blank" rel="noopener">Consultar sabores e disponibilidade →</a>
-        </div>
-      </div>
-
-      <div class="doce-row reverse reveal">
-        <div class="doce-photo"><img src="img/bolo-pote-mini-donuts.jpg" alt="Potes de bolo de pote com camadas de chocolate e baunilha, ao lado de mini donuts rosa" loading="lazy" decoding="async"></div>
-        <div class="doce-text">
-          <span class="doce-num">02 — Bolo de pote</span>
-          <h3>Camadas que contam história</h3>
-          <p>Massa molhadinha, recheio cremoso e cobertura crocante — tudo em porção individual, pronta para presentear.</p>
-          <div class="flavor-tags">
-            <span>Ninho Trufado</span><span>Ovomaltine</span><span>Oreo c/ choco branco</span><span>Morango</span>
-          </div>
-          <a class="link-inline" href="https://wa.me/5551986040948?text=Oi!%20Quero%20consultar%20sabores%20de%20bolo%20de%20pote." target="_blank" rel="noopener">Consultar sabores e disponibilidade →</a>
-        </div>
-      </div>
-
-      <div class="doce-row reveal">
-        <div class="doce-photo"><img src="img/mousse-chocolate.jpg" alt="Mousse de chocolate com camada rosa, decorado com wafer" loading="lazy" decoding="async"></div>
-        <div class="doce-text">
-          <span class="doce-num">03 — Mousse</span>
-          <h3>Leve, cremosa, irresistível</h3>
-          <p>A pedida certa pra fechar qualquer mesa de doces — servida em potinho individual com um toque final delicado.</p>
-          <div class="flavor-tags">
-            <span>Chocolate</span><span>Maracujá</span><span>Limão</span>
-          </div>
-          <a class="link-inline" href="https://wa.me/5551986040948?text=Oi!%20Quero%20consultar%20sabores%20de%20mousse." target="_blank" rel="noopener">Consultar sabores e disponibilidade →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALERIA -->
-  <section class="section wrap">
-    <div class="section-head">
-      <h2>Direto do nosso ateliê</h2>
-      <p>Um gostinho do que sai da nossa cozinha toda semana.</p>
-    </div>
-    <div class="gallery">
-      <img class="reveal" src="img/galeria-tabua-madeira.jpg" alt="Donuts variados sobre tábua de madeira, vista de cima" loading="lazy" decoding="async">
-      <img class="reveal" src="img/galeria-potes-empilhados.jpg" alt="Potes de bolo de pote empilhados" loading="lazy" decoding="async">
-      <img class="reveal" src="img/galeria-fileira-donuts.jpg" alt="Fileira de donuts com coberturas variadas" loading="lazy" decoding="async">
-      <img class="reveal" src="img/galeria-donuts-granulado.jpg" alt="Donuts com granulado sobre tábua de madeira" loading="lazy" decoding="async">
-      <img class="reveal" src="img/mini-donuts-grade.jpg" alt="Mini donuts coloridos sobre grade" loading="lazy" decoding="async">
-      <img class="reveal" src="img/mousse-chocolate.jpg" alt="Mousse de chocolate com camada rosa" loading="lazy" decoding="async">
-    </div>
-  </section>
-
-  <!-- OCASIOES -->
-  <section class="section wrap" id="ocasioes">
-    <div class="section-head">
-      <h2>Feito para o seu momento</h2>
-      <p>Uma caixa de Donuts Loverss encaixa em qualquer ocasião — é só escolher a sua.</p>
-    </div>
-    <div class="occasions">
-      <div class="occasion">
-        <div class="mark">a</div>
-        <h4>Aniversários</h4>
-        <p>Docinhos para deixar a comemoração ainda mais especial.</p>
-      </div>
-      <div class="occasion">
-        <div class="mark">f</div>
-        <h4>Festas</h4>
-        <p>Mini donuts e doces para compartilhar com todo mundo.</p>
-      </div>
-      <div class="occasion">
-        <div class="mark">p</div>
-        <h4>Presentes</h4>
-        <p>Uma opção diferente para surpreender alguém especial.</p>
-      </div>
-      <div class="occasion">
-        <div class="mark">e</div>
-        <h4>Empresas</h4>
-        <p>Encomendas para eventos e momentos corporativos.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- COMO FUNCIONA -->
-  <section class="section wrap" id="como-funciona">
-    <div class="section-head">
-      <h2>Como funciona</h2>
-      <p>Do pedido até a entrega, em cinco passos simples.</p>
-    </div>
-    <div class="steps">
-      <div class="step"><span class="idx">01</span><div><h4>Escolha seus doces</h4><p>Conheça nossas opções de mini donuts, bolo de pote e mousse, e escolha seus sabores favoritos.</p></div></div>
-      <div class="step"><span class="idx">02</span><div><h4>Faça seu pedido</h4><p>Entre em contato pelo WhatsApp e conte pra gente o que você precisa.</p></div></div>
-      <div class="step"><span class="idx">03</span><div><h4>Personalizamos</h4><p>Definimos juntos quantidade, sabores e detalhes da sua encomenda.</p></div></div>
-      <div class="step"><span class="idx">04</span><div><h4>Produzimos</h4><p>Seu pedido é preparado artesanalmente, com carinho em cada etapa.</p></div></div>
-      <div class="step"><span class="idx">05</span><div><h4>Receba seu pedido</h4><p>Entrega ou retirada, conforme combinarmos com você.</p></div></div>
-    </div>
-  </section>
-
-  <!-- SOBRE -->
-  <section class="section wrap" id="sobre">
-    <div class="about">
-      <div class="about-inner">
-        <h2>Muito mais que doces</h2>
-        <p>A Donuts Loverss nasceu com o propósito de transformar ingredientes simples em momentos especiais.</p>
-        <p>Cada doce é preparado artesanalmente, buscando unir sabor, criatividade e uma apresentação que também faz parte da experiência — feito com carinho, em Porto Alegre.</p>
-        <a class="btn btn-ghost" style="border-color:rgba(255,244,216,0.35); margin-top:8px;" href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Falar no WhatsApp</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- DEPOIMENTOS -->
-  <section class="section wrap">
-    <div class="section-head">
-      <h2>Quem experimentou, aprova</h2>
-    </div>
-    <div class="testimonials">
-      <div class="testimonial">
-        <div class="stars">★★★★★</div>
-        <p>Estava tudo maravilhoso! Os donuts fizeram o maior sucesso na festa.</p>
-        <div class="who">Cliente Donuts Loverss</div>
-      </div>
-      <div class="testimonial">
-        <div class="stars">★★★★★</div>
-        <p>Muito capricho e tudo delicioso, do bolo de pote à mousse.</p>
-        <div class="who">Cliente Donuts Loverss</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- INSTAGRAM -->
-  <section class="section wrap insta">
-    <div class="insta-handle">@donutsloverss</div>
-    <p>Também postamos os bastidores por lá — mas seu pedido, sabor e entrega você resolve todo aqui.</p>
-    <div class="insta-strip">
-      <img src="img/hero-donut-chocolate.jpg" alt="" loading="lazy" decoding="async">
-      <img src="img/mini-donuts-grade.jpg" alt="" loading="lazy" decoding="async">
-      <img src="img/bolo-pote-mini-donuts.jpg" alt="" loading="lazy" decoding="async">
-      <img src="img/galeria-tabua-madeira.jpg" alt="" loading="lazy" decoding="async">
-      <img src="img/galeria-fileira-donuts.jpg" alt="" loading="lazy" decoding="async">
-    </div>
-    <a class="btn btn-ghost" href="https://www.instagram.com/donutsloverss" target="_blank" rel="noopener">Ver Instagram</a>
-  </section>
-
-  <!-- CTA FINAL -->
-  <section class="wrap">
-    <div class="cta-final">
-      <h2>Vamos deixar seu momento mais doce?</h2>
-      <p>Faça sua encomenda pelo WhatsApp e monte sua caixa de sabores.</p>
-      <a class="btn btn-primary" href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener">Fazer encomenda</a>
-    </div>
-  </section>
-
-</main>
-
-<footer class="wrap">
-  <div class="footer-grid">
-    <a href="#top" class="logo">donuts<span>loverss</span></a>
-    <div class="footer-cols">
-      <div class="footer-col">
-        <h5>Navegação</h5>
+      <div class="mobile-menu" id="mobileMenu">
         <a href="#doces">Nossos doces</a>
         <a href="#ocasioes">Ocasiões</a>
         <a href="#sobre">Sobre</a>
         <a href="#como-funciona">Como funciona</a>
+        <a
+          class="mobile-cta"
+          href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda."
+          target="_blank"
+          rel="noopener"
+          >Fazer encomenda no WhatsApp</a
+        >
       </div>
-      <div class="footer-col">
-        <h5>Contato</h5>
-        <a href="https://wa.me/5551986040948" target="_blank" rel="noopener">(51) 98604-0948</a>
-        <a href="https://www.instagram.com/donutsloverss" target="_blank" rel="noopener">@donutsloverss</a>
-        <a href="#">Porto Alegre — RS</a>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero wrap">
+        <div class="hero-glow"></div>
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow-tag">Produção artesanal em Porto Alegre</span>
+            <h1 class="hero-title">Doces que viram <em>memória</em></h1>
+            <p class="hero-copy">
+              Mini donuts, bolo de pote e mousse feitos à mão, sob encomenda em
+              Porto Alegre.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda."
+                target="_blank"
+                rel="noopener"
+                >Fazer minha encomenda</a
+              >
+              <a class="hero-link" href="#doces">Ver nossos doces</a>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <img
+              src="img/hero-donut-chocolate.jpg"
+              alt="Donut de chocolate finalizado com wafer rosa, segurado por confeiteira com luva preta"
+              style="object-position: 50% 42%"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- FAIXA ANIMADA -->
+      <div class="faixa" aria-hidden="true">
+        <div class="faixa-conteudo">
+          <span>Mini Donuts</span><span class="dot">•</span>
+          <span>Doces Gourmet</span><span class="dot">•</span>
+          <span>Feito à mão</span><span class="dot">•</span>
+          <span>Porto Alegre</span><span class="dot">•</span>
+          <span>Mini Donuts</span><span class="dot">•</span>
+          <span>Doces Gourmet</span><span class="dot">•</span>
+          <span>Feito à mão</span><span class="dot">•</span>
+          <span>Porto Alegre</span><span class="dot">•</span>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 Donuts Loverss. Mini donuts &amp; doces gourmet.</span>
-    <span>Produção artesanal sob encomenda</span>
-  </div>
-</footer>
 
-<a class="wa-float" href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-  <svg viewBox="0 0 32 32" fill="#fff"><path d="M16.001 3C9.373 3 4 8.373 4 15.001c0 2.446.717 4.72 1.951 6.633L4 29l7.552-1.918a11.94 11.94 0 0 0 4.449.854h.001C22.63 27.936 28 22.563 28 15.935 28 9.307 22.63 3 16.001 3zm0 21.6a9.55 9.55 0 0 1-4.87-1.334l-.35-.208-4.482 1.138 1.163-4.367-.228-.36A9.566 9.566 0 0 1 5.6 15c0-5.294 4.308-9.601 9.601-9.601 5.294 0 9.6 4.307 9.6 9.6 0 5.294-4.307 9.601-9.6 9.601zm5.264-7.19c-.288-.144-1.703-.84-1.967-.936-.264-.096-.456-.144-.648.144-.192.288-.744.936-.912 1.128-.168.192-.336.216-.624.072-.288-.144-1.216-.448-2.316-1.428-.856-.763-1.434-1.706-1.602-1.994-.168-.288-.018-.444.126-.588.13-.129.288-.336.432-.504.144-.168.192-.288.288-.48.096-.192.048-.36-.024-.504-.072-.144-.648-1.562-.888-2.14-.234-.563-.472-.487-.648-.496l-.552-.01c-.192 0-.504.072-.768.36-.264.288-1.008.984-1.008 2.4 0 1.416 1.032 2.784 1.176 2.976.144.192 2.03 3.1 4.92 4.347.687.297 1.223.474 1.641.606.689.219 1.316.188 1.812.114.553-.083 1.703-.696 1.943-1.369.24-.672.24-1.248.168-1.369-.072-.12-.264-.192-.552-.336z"/></svg>
-</a>
+      <!-- IMPACTO -->
+      <section class="impact wrap">
+        <h2>Pequenos doces. <br />Grandes momentos.</h2>
+        <p>
+          Cada pedido é preparado artesanalmente, com cuidado em cada detalhe
+          para deixar sua comemoração ainda mais especial.
+        </p>
+      </section>
 
-<script src="script.js" defer></script>
+      <!-- NOSSOS DOCES -->
+      <section class="section wrap" id="doces">
+        <div class="section-head">
+          <h2>O que sai do nosso forno</h2>
+          <p>
+            Consulte sabores e disponibilidade da semana direto pelo WhatsApp —
+            montamos sua caixa do seu jeito.
+          </p>
+        </div>
 
-</body>
+        <div class="doces-list">
+          <div class="doce-row reveal">
+            <div class="doce-photo">
+              <img
+                src="img/mini-donuts-grade.jpg"
+                alt="Seis mini donuts coloridos com coberturas variadas sobre grade de resfriamento"
+              />
+            </div>
+            <div class="doce-text">
+              <span class="doce-num">01 — Mini donuts</span>
+              <h3>O clássico da casa</h3>
+              <p>
+                Massa fofinha, banho generoso e cobertura na medida certa.
+                Feitos em tamanho mini para experimentar mais de um sabor.
+              </p>
+              <div class="flavor-tags">
+                <span>Kinder</span><span>M&amp;M's</span
+                ><span>Ninho + Nutella</span><span>Oreo</span
+                ><span>Churros</span>
+              </div>
+              <a
+                class="link-inline"
+                href="https://wa.me/5551986040948?text=Oi!%20Quero%20consultar%20sabores%20de%20mini%20donuts."
+                target="_blank"
+                rel="noopener"
+                >Consultar sabores e disponibilidade →</a
+              >
+            </div>
+          </div>
+
+          <div class="doce-row reverse reveal">
+            <div class="doce-photo">
+              <img
+                src="img/bolo-pote-mini-donuts.jpg"
+                alt="Potes de bolo de pote com camadas de chocolate e baunilha, ao lado de mini donuts rosa"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="doce-text">
+              <span class="doce-num">02 — Bolo de pote</span>
+              <h3>Camadas que contam história</h3>
+              <p>
+                Massa molhadinha, recheio cremoso e cobertura crocante — tudo em
+                porção individual, pronta para presentear.
+              </p>
+              <div class="flavor-tags">
+                <span>Ninho Trufado</span><span>Ovomaltine</span
+                ><span>Oreo c/ choco branco</span><span>Morango</span>
+              </div>
+              <a
+                class="link-inline"
+                href="https://wa.me/5551986040948?text=Oi!%20Quero%20consultar%20sabores%20de%20bolo%20de%20pote."
+                target="_blank"
+                rel="noopener"
+                >Consultar sabores e disponibilidade →</a
+              >
+            </div>
+          </div>
+
+          <div class="doce-row reveal">
+            <div class="doce-photo">
+              <img
+                src="img/mousse-chocolate.jpg"
+                alt="Mousse de chocolate com camada rosa, decorado com wafer"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="doce-text">
+              <span class="doce-num">03 — Mousse</span>
+              <h3>Leve, cremosa, irresistível</h3>
+              <p>
+                A pedida certa pra fechar qualquer mesa de doces — servida em
+                potinho individual com um toque final delicado.
+              </p>
+              <div class="flavor-tags">
+                <span>Chocolate</span><span>Maracujá</span><span>Limão</span>
+              </div>
+              <a
+                class="link-inline"
+                href="https://wa.me/5551986040948?text=Oi!%20Quero%20consultar%20sabores%20de%20mousse."
+                target="_blank"
+                rel="noopener"
+                >Consultar sabores e disponibilidade →</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERIA -->
+      <section class="section wrap">
+        <div class="section-head">
+          <h2>Direto do nosso ateliê</h2>
+          <p>Um gostinho do que sai da nossa cozinha toda semana.</p>
+        </div>
+        <div class="gallery">
+          <img
+            class="reveal"
+            src="img/galeria-tabua-madeira.jpg"
+            alt="Donuts variados sobre tábua de madeira, vista de cima"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            class="reveal"
+            src="img/galeria-potes-empilhados.jpg"
+            alt="Potes de bolo de pote empilhados"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            class="reveal"
+            src="img/galeria-fileira-donuts.jpg"
+            alt="Fileira de donuts com coberturas variadas"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            class="reveal"
+            src="img/galeria-donuts-granulado.jpg"
+            alt="Donuts com granulado sobre tábua de madeira"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            class="reveal"
+            src="img/mini-donuts-grade.jpg"
+            alt="Mini donuts coloridos sobre grade"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            class="reveal"
+            src="img/mousse-chocolate.jpg"
+            alt="Mousse de chocolate com camada rosa"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </section>
+
+      <!-- OCASIOES -->
+      <section class="section wrap" id="ocasioes">
+        <div class="section-head">
+          <h2>Feito para o seu momento</h2>
+          <p>
+            Uma caixa de Donuts Loverss encaixa em qualquer ocasião — é só
+            escolher a sua.
+          </p>
+        </div>
+        <div class="occasions">
+          <div class="occasion">
+            <div class="mark">a</div>
+            <h4>Aniversários</h4>
+            <p>Docinhos para deixar a comemoração ainda mais especial.</p>
+          </div>
+          <div class="occasion">
+            <div class="mark">f</div>
+            <h4>Festas</h4>
+            <p>Mini donuts e doces para compartilhar com todo mundo.</p>
+          </div>
+          <div class="occasion">
+            <div class="mark">p</div>
+            <h4>Presentes</h4>
+            <p>Uma opção diferente para surpreender alguém especial.</p>
+          </div>
+          <div class="occasion">
+            <div class="mark">e</div>
+            <h4>Empresas</h4>
+            <p>Encomendas para eventos e momentos corporativos.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMO FUNCIONA -->
+      <section class="section wrap" id="como-funciona">
+        <div class="section-head">
+          <h2>Como funciona</h2>
+          <p>Do pedido até a entrega, em cinco passos simples.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <span class="idx">01</span>
+            <div>
+              <h4>Escolha seus doces</h4>
+              <p>
+                Conheça nossas opções de mini donuts, bolo de pote e mousse, e
+                escolha seus sabores favoritos.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="idx">02</span>
+            <div>
+              <h4>Faça seu pedido</h4>
+              <p>
+                Entre em contato pelo WhatsApp e conte pra gente o que você
+                precisa.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="idx">03</span>
+            <div>
+              <h4>Personalizamos</h4>
+              <p>
+                Definimos juntos quantidade, sabores e detalhes da sua
+                encomenda.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="idx">04</span>
+            <div>
+              <h4>Produzimos</h4>
+              <p>
+                Seu pedido é preparado artesanalmente, com carinho em cada
+                etapa.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <span class="idx">05</span>
+            <div>
+              <h4>Receba seu pedido</h4>
+              <p>Entrega ou retirada, conforme combinarmos com você.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section class="section wrap" id="sobre">
+        <div class="about">
+          <div class="about-inner">
+            <h2>Muito mais que doces</h2>
+            <p>
+              A Donuts Loverss nasceu com o propósito de transformar
+              ingredientes simples em momentos especiais.
+            </p>
+            <p>
+              Cada doce é preparado artesanalmente, buscando unir sabor,
+              criatividade e uma apresentação que também faz parte da
+              experiência — feito com carinho, em Porto Alegre.
+            </p>
+            <a
+              class="btn btn-ghost"
+              style="border-color: rgba(255, 244, 216, 0.35); margin-top: 8px"
+              href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda."
+              target="_blank"
+              rel="noopener"
+              >Falar no WhatsApp</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- DEPOIMENTOS -->
+      <section class="section wrap">
+        <div class="section-head">
+          <h2>Quem experimentou, aprova</h2>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>
+              Estava tudo maravilhoso! Os donuts fizeram o maior sucesso na
+              festa.
+            </p>
+            <div class="who">Cliente Donuts Loverss</div>
+          </div>
+          <div class="testimonial">
+            <div class="stars">★★★★★</div>
+            <p>Muito capricho e tudo delicioso, do bolo de pote à mousse.</p>
+            <div class="who">Cliente Donuts Loverss</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INSTAGRAM -->
+      <section class="section wrap insta">
+        <div class="insta-handle">@donutsloverss</div>
+        <p>
+          Também postamos os bastidores por lá — mas seu pedido, sabor e entrega
+          você resolve todo aqui.
+        </p>
+        <div class="insta-strip">
+          <img
+            src="img/hero-donut-chocolate.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="img/mini-donuts-grade.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="img/bolo-pote-mini-donuts.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="img/galeria-tabua-madeira.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="img/galeria-fileira-donuts.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+        <a
+          class="btn btn-ghost"
+          href="https://www.instagram.com/donutsloverss"
+          target="_blank"
+          rel="noopener"
+          >Ver Instagram</a
+        >
+      </section>
+
+      <!-- CTA FINAL -->
+      <section class="wrap">
+        <div class="cta-final">
+          <h2>Vamos deixar seu momento mais doce?</h2>
+          <p>Faça sua encomenda pelo WhatsApp e monte sua caixa de sabores.</p>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda."
+            target="_blank"
+            rel="noopener"
+            >Fazer encomenda</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap">
+      <div class="footer-grid">
+        <a href="#top" class="logo">donuts<span>loverss</span></a>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h5>Navegação</h5>
+            <a href="#doces">Nossos doces</a>
+            <a href="#ocasioes">Ocasiões</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#como-funciona">Como funciona</a>
+          </div>
+          <div class="footer-col">
+            <h5>Contato</h5>
+            <a href="https://wa.me/5551986040948" target="_blank" rel="noopener"
+              >(51) 98604-0948</a
+            >
+            <a
+              href="https://www.instagram.com/donutsloverss"
+              target="_blank"
+              rel="noopener"
+              >@donutsloverss</a
+            >
+            <a href="#">Porto Alegre — RS</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Donuts Loverss. Mini donuts &amp; doces gourmet.</span>
+        <span>Produção artesanal sob encomenda</span>
+      </div>
+    </footer>
+
+    <a
+      class="wa-float"
+      href="https://wa.me/5551986040948?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Donuts%20Loverss%20e%20gostaria%20de%20fazer%20uma%20encomenda."
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar no WhatsApp"
+    >
+      <svg viewBox="0 0 32 32" fill="#fff">
+        <path
+          d="M16.001 3C9.373 3 4 8.373 4 15.001c0 2.446.717 4.72 1.951 6.633L4 29l7.552-1.918a11.94 11.94 0 0 0 4.449.854h.001C22.63 27.936 28 22.563 28 15.935 28 9.307 22.63 3 16.001 3zm0 21.6a9.55 9.55 0 0 1-4.87-1.334l-.35-.208-4.482 1.138 1.163-4.367-.228-.36A9.566 9.566 0 0 1 5.6 15c0-5.294 4.308-9.601 9.601-9.601 5.294 0 9.6 4.307 9.6 9.6 0 5.294-4.307 9.601-9.6 9.601zm5.264-7.19c-.288-.144-1.703-.84-1.967-.936-.264-.096-.456-.144-.648.144-.192.288-.744.936-.912 1.128-.168.192-.336.216-.624.072-.288-.144-1.216-.448-2.316-1.428-.856-.763-1.434-1.706-1.602-1.994-.168-.288-.018-.444.126-.588.13-.129.288-.336.432-.504.144-.168.192-.288.288-.48.096-.192.048-.36-.024-.504-.072-.144-.648-1.562-.888-2.14-.234-.563-.472-.487-.648-.496l-.552-.01c-.192 0-.504.072-.768.36-.264.288-1.008.984-1.008 2.4 0 1.416 1.032 2.784 1.176 2.976.144.192 2.03 3.1 4.92 4.347.687.297 1.223.474 1.641.606.689.219 1.316.188 1.812.114.553-.083 1.703-.696 1.943-1.369.24-.672.24-1.248.168-1.369-.072-.12-.264-.192-.552-.336z"
+        />
+      </svg>
+    </a>
+
+    <script src="script.js" defer></script>
+  </body>
 </html>
