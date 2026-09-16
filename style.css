@@ -1012,7 +1012,7 @@ footer {
 .faixa-conteudo {
   display: flex;
   width: max-content;
-  animation: faixa 20s linear infinite;
+  animation: faixa 22s linear infinite;
 }
 
 .faixa-conteudo span {
